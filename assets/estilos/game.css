@@ -1,0 +1,6 @@
+.conteudo{
+    background-image: url("../imagens/fundo.webp");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}

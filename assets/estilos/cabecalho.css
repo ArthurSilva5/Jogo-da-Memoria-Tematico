@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Vina+Sans&display=swap');
+@font-face {
+    font-family: "Arcade";
+    src: url("./The\ Rainmaker.otf");
+}
+
+.cabecalho{
+    background-color: #70922C;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho-titulo{
+    margin: 0 auto;
+    font-family: "Arcade", Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.cabecalho-timer{
+    padding: 15px;
+    font-family: "Arcade", Verdana,sans-serif;
+    font-size: 20px;
+}

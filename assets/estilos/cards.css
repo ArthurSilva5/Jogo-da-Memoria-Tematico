@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Vina+Sans&display=swap');
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    background-color: #8cc41c;
+    border: 3px solid rgb(51, 50, 50);
+    height: 200px;
+    width: 7.5%;
+    cursor: pointer;
+    margin: 1.5rem 0.8rem;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 14px;
+}
+
+.giro-animacao {
+    animation: giro 0.2s linear;
+}
+
+
+@keyframes giro {
+    0% {
+        transform: rotateY(140deg);
+      }
+}
+
+.card-img{
+    height: 100%;
+    width: 100%;
+}
+
+.card-nome{
+    text-align: center;
+    padding: 5px;
+    word-break: break-all;
+}
