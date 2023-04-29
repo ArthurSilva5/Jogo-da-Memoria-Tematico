@@ -20,9 +20,9 @@ const listaEmbaralhada = embaralhaCartas(personagens);
 
         // Implementa a foto das cartas
         const img = document.createElement('img');
-        img.src = `../assets/imagens/back.jpg`
-        img.classList.add('card-img')
-        card.appendChild(img)
+        img.src = `./assets/imagens/back.jpg`;
+        img.classList.add('card-img');
+        card.appendChild(img);
     }
 })();
 
@@ -80,7 +80,7 @@ const manipulaCartas = (() => {
                         // Adiciona a animação de giro
                         escolha.classList.add('giro-animacao');
                         // Troca as fotos das imagens
-                        escolha.firstElementChild.src = `../assets/imagens/back.jpg`;
+                        escolha.firstElementChild.src = `./assets/imagens/back.jpg`;
 
                         setTimeout(() => escolha.classList.remove('giro-animacao'), 1000)})
                     listaDeEscolhas.splice(0,2)
@@ -106,7 +106,7 @@ const manipulaCartas = (() => {
             // Captura o personagem escolhido
             const personagem = cartaSelecionada.value;
             // Atualiza a carta para a foto do personagem
-            img.src = `../assets/imagens/${personagem}.jpg`;
+            img.src = `./assets/imagens/${personagem}.jpg`;
         }
       });
     }
