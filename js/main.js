@@ -82,7 +82,7 @@ const manipulaCartas = (() => {
                         // Troca as fotos das imagens
                         escolha.firstElementChild.src = `./assets/imagens/back.jpg`;
 
-                        setTimeout(() => escolha.classList.remove('giro-animacao'), 1000)})
+                        setTimeout(() => escolha.classList.remove('giro-animacao'), 500)})
                     listaDeEscolhas.splice(0,2)
 
                 // Cria pequena função para reabilitar as cartas
@@ -96,7 +96,7 @@ const manipulaCartas = (() => {
                         carta.style.pointerEvents = 'none';
                     }
                     })
-                }, 1100);
+                }, 1300);
             }
         }           
 

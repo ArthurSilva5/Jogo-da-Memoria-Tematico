@@ -4,6 +4,7 @@ for (let i = 0; i < cartas.length; i++) {
   // Ao clicar na carta, chama uma função
   cartaSelecionada.addEventListener('click', function() {
     cartaSelecionada.classList.add('giro-animacao');
-    setTimeout(() => cartaSelecionada.classList.remove('giro-animacao'), 1000)
+    console.log(cartaSelecionada)
+    setTimeout(() => cartaSelecionada.classList.remove('giro-animacao'), 500)
   })
 }

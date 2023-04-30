@@ -16,11 +16,21 @@
 .cabecalho-titulo{
     margin: 0 auto;
     font-family: "Arcade", Verdana, sans-serif;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .cabecalho-timer{
     padding: 15px;
     font-family: "Arcade", Verdana,sans-serif;
     font-size: 20px;
+}
+
+@media screen and (max-width: 550px) {
+    .cabecalho-titulo{
+        font-size: 20px;
+    }
+    .cabecalho-timer{
+        padding: 8px;
+        font-size: 18px;
+    }
 }
