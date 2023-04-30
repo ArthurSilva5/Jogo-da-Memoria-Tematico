@@ -40,7 +40,8 @@ const manipulaCartas = (() => {
       cartaSelecionada.addEventListener('click', function () {
         // Cria uma lista com todas imagens e seleciona a que estiver na posição [i]
         const img = document.querySelectorAll('.card-img')[i];
-
+        // Bloqueia a carta selecionada de ser clicada duas vezes seguidas
+        cartaSelecionada.style.pointerEvents = 'none'; 
         // Armazena a carta selecionada
         listaDeEscolhas.push(cartaSelecionada);
 
