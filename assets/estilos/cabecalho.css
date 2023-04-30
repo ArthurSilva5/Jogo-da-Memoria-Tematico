@@ -15,6 +15,7 @@
 
 .cabecalho-titulo{
     margin: 0 auto;
+    padding: 5px;
     font-family: "Arcade", Verdana, sans-serif;
     font-size: 25px;
 }
